@@ -1,0 +1,14 @@
+.DS_Store
+.Trashes
+*.csi
+*.exp
+*.lib
+*.lvw
+*.dca
+*.scc
+*.tmp
+*.exe
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
