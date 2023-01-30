@@ -1,6 +1,6 @@
 VERSION 5.00
-Object = "{6B7E6392-850A-101B-AFC0-4210102A8DA7}#1.3#0"; "comctl32.ocx"
-Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "comdlg32.ocx"
+Object = "{6B7E6392-850A-101B-AFC0-4210102A8DA7}#1.3#0"; "COMCTL32.OCX"
+Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Begin VB.Form frmPrincipal 
    BackColor       =   &H00C0C0C0&
    BorderStyle     =   1  'Fixed Single
@@ -157,6 +157,7 @@ Option Explicit
 Dim AccionBoton(0 To 10) As String
 Dim sParametro As String
 
+'// comentario para cambiar el codigo cambio 1
 Private Sub Arbol_NodeClick(ByVal Node As ComctlLib.Node)
     Select Case Left(Node.Key, 1)
         Case "A" 'estudio

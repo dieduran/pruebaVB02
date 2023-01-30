@@ -108,7 +108,7 @@ End Sub
 Private Sub cmdCopiarPlan_Click()
 Dim Rta As Integer
 Dim Rdo As Boolean
-
+'// comentario para cambiar el codigo cambio 1
     If Validar = True Then
       Rta = MsgBox("¿Está seguro que desea importar el plan de cuentas?" & Chr(13) & "Esta accion no puede volverse atras.", vbYesNo + vbDefaultButton2 + vbQuestion, Me.Caption)
         'copiamos el plan de cuentas

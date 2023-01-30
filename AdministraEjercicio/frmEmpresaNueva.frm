@@ -81,7 +81,7 @@ Dim AuxEmpresa As String
 Dim AuxDirectorio As String
 Dim Rst As ADODB.Recordset
 Dim Proximo As Long
-
+'// comentario para cambiar el codigo cambio 1
    AuxEmpresa = Trim(Replace(txtEmpresa.Text, "'", "´"))
    AuxDirectorio = Trim(Replace(txtDirectorio.Text, "'", "´"))
    
